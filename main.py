@@ -83,14 +83,14 @@ print ("rebate:", rebate)
 # then subtract the R376 credit.
 MONTHLY_MTC = 376
 monthly_tax =  (base_tax / 12) - MONTHLY_MTC
-print("Monthly Tax after Medical Tax Credit:", monthly_tax) 
+print("Monthly Tax after Medical Tax Credit:", f"R{monthly_tax:.2f}") 
 
 # QUESTION 7:
 # Final Step! Calculate the 'net_salary'.
 # Formula: Gross - Monthly Tax - UIF - Medical Aid Premium.
 # --- Net Salary ---
 net_salary = monthly_gross_salary - monthly_tax - uif - medical_aid_premium
-print("Net Salary:", net_salary)
+print("Net Salary:", f"R{net_salary:.2f}")
 
 
 # QUESTION 8:
