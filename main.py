@@ -26,10 +26,9 @@ print("Monthly UIF Contribution:", uif)
 # QUESTION 3:
 # To calculate tax (PAYE), we need the annual salary. 
 annual_gross = monthly_gross_salary * 12
-PAYE = float(monthly_gross_salary * 0.18)
+PAYE = (annual_gross * 0.18)
 # Create a variable 'annual_gross' by multiplying monthly salary by 12.
 print("Annual Tax (PAYE):", PAYE)
-
 
 
 # QUESTION 4:
